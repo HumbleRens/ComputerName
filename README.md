@@ -1,4 +1,4 @@
-# ComputerName
+# IP to Computer Name
 - Attach is both options where needing to import an list of IPs from an .xlsx and from .txt to .xlsx.
  
 
