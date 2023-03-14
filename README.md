@@ -8,6 +8,6 @@
 - If you need to import an excel file then change, be sure there is a column named "ComputerName" above the computer lists:
 
 Change:
-$ipList = Get-Content -Path "C:\Users\l17069\Desktop\+Vulnerabilities\critical_computers.txt"
+$ipList = Get-Content -Path ""
 to:
-$computerList = Import-Csv -Path "COMPUTER_LIST.csv"
+$ipList = Import-Excel -Path "C:\import\location\iplist.xlsx"
