@@ -26,4 +26,4 @@ foreach ($ipAddress in $ipList) {
 }
 
 # Export results to Excel file
-$results | Export-Excel -Path "C:\insert\location\here\DNS.xlsx" -AutoSize -AutoFilter
+$results | Export-Excel -Path "C:\insert\location\here\IPDNS.xlsx" -AutoSize -AutoFilter
