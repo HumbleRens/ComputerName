@@ -1,9 +1,9 @@
 # ComputerName
-
-- Replace "C:\insert\location\here\ips.txt" with the path to your TXT file containing a list of computer names.
-
-- The script loops through each computer name in the CSV file, uses the Get-WmiObject cmdlet to get the Windows version and OS build number of each computer, and creates a PowerShell object with the computer name, OS version, and OS build number.
+- Attach is both options where needing to import an list of IPs from an .xlsx and from .txt to .xlsx.
+ 
 
 # Notes:
-- Be sure the top co 
-- If you need to import an excel file change the import path and export path shown below.
+- Be sure the top row of IP list has "ipAddress" on the .xlsx file.
+- Replace the import path of your IP list.
+- Replace the export path of where to save it.
+
