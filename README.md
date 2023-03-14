@@ -9,4 +9,4 @@ The Select-Object cmdlet selects and displays only the NameHost property of the 
 
 When you run the script, PowerShell retrieves and displays the computer name of the remote computer that corresponds to the specified IP address.
 
-If the IP address cannot be resolved to a DNS name, the script returns no output
+If the IP address cannot be resolved to a DNS name, the script returns no output.
