@@ -1,4 +1,4 @@
-﻿# Import IP addresses from Excel fileip
+﻿# Import IP addresses from Excel file
 $ipList = Import-Excel -Path "C:\import\location\iplist.xlsx"
 
 # Create array to store results
